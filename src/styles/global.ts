@@ -58,14 +58,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   button {
-    cursor: pointer;
-    &:disabled {
-      opacity: 0.6;
-      cursor: not-allowed;
-      &:hover {
-        filter: brightness(1.0);
-      }
-    }
+    font-weight: 700!important;
   }
   
   `;
