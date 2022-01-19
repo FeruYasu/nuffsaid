@@ -8,5 +8,6 @@ export const light = {
     warning: "#FCE788",
     info: "#88FCA3",
     text: "#222324",
+    border: "#808080",
   },
 };

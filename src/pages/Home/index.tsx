@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import generateMessage, { Message } from "../../Api";
+import { Header } from "../../components/Header";
 import { Container } from "./styles";
 
 export function Home() {
@@ -13,6 +14,8 @@ export function Home() {
 
   return (
     <Container>
+      <Header />
+
       <div>
         {messages?.map?.((msg) => (
           <div key={msg?.message}>{msg?.message}</div>

@@ -8,5 +8,6 @@ export const dark = {
     warning: "#FCE788",
     info: "#88FCA3",
     text: "#fff",
+    border: "#808080",
   },
 };
