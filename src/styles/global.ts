@@ -17,12 +17,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button {
-    font: 400 16px 'Lato', sans-serif;
+    font: 400 16px 'Times new roman', sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-  }
 
   h1 {
     font-size: 2.4rem;
@@ -38,14 +35,17 @@ export const GlobalStyle = createGlobalStyle`
 
   h4 {
     font-size: 1.8rem;
+    font-weight: 400;
   }
 
   h5 {
     font-size: 1.4rem;
+    font-weight: 400;
   }
 
   h6 {
     font-size: 1.2rem;
+    font-weight: 400;
   }
 
   p, span, a {
